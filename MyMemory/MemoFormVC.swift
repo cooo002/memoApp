@@ -34,11 +34,11 @@ class MemoFormVC: UIViewController, UIImagePickerControllerDelegate, UINavigatio
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         appDelegate.memoList.append(data)
           self.navigationController?.popViewController(animated: true)//
-        let AppDelegateSaveInfo = appDelegate.memoList[logcheckNummber].contents!//데이터가 appDelegate에 잘 저장되었나 확인용
-        
-        NSLog(AppDelegateSaveInfo)//데이터가 appDelegate에 잘 저장되었나 확인용
-        
-        logcheckNummber+=1//데이터가 appDelegate에 잘 저장되었나 확인용(이 코드는 그냥 내가 실제 저장되는지 확인하고싶어서 만든것)
+//        let AppDelegateSaveInfo = appDelegate.memoList[logcheckNummber].contents!//데이터가 appDelegate에 잘 저장되었나 확인용
+//        
+//        NSLog(AppDelegateSaveInfo)//데이터가 appDelegate에 잘 저장되었나 확인용
+//        
+//        logcheckNummber+=1//데이터가 appDelegate에 잘 저장되었나 확인용(이 코드는 그냥 내가 실제 저장되는지 확인하고싶어서 만든것)
         
     }
     
