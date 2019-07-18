@@ -24,6 +24,18 @@
 		639D1D7922DC67C0007060FC /* button-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 639D1D7822DC67C0007060FC /* button-bg.png */; };
 		639D1D7B22DC6AE6007060FC /* memo-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 639D1D7A22DC6AE6007060FC /* memo-background@2x.png */; };
 		639D1D7D22DC6AEE007060FC /* warning-icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 639D1D7C22DC6AEE007060FC /* warning-icon-60@2x.png */; };
+		639D1E2122DEE55F007060FC /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 639D1E1F22DEE55F007060FC /* SWRevealViewController.m */; };
+		639D1E2A22DEE58E007060FC /* icon01.png in Resources */ = {isa = PBXBuildFile; fileRef = 639D1E2222DEE58E007060FC /* icon01.png */; };
+		639D1E2B22DEE58E007060FC /* icon02.png in Resources */ = {isa = PBXBuildFile; fileRef = 639D1E2322DEE58E007060FC /* icon02.png */; };
+		639D1E2C22DEE58E007060FC /* icon05.png in Resources */ = {isa = PBXBuildFile; fileRef = 639D1E2422DEE58E007060FC /* icon05.png */; };
+		639D1E2D22DEE58E007060FC /* sidemenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 639D1E2522DEE58E007060FC /* sidemenu.png */; };
+		639D1E2E22DEE58E007060FC /* account@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 639D1E2622DEE58E007060FC /* account@2x.jpg */; };
+		639D1E2F22DEE58E007060FC /* icon03.png in Resources */ = {isa = PBXBuildFile; fileRef = 639D1E2722DEE58E007060FC /* icon03.png */; };
+		639D1E3022DEE58E007060FC /* icon04.png in Resources */ = {isa = PBXBuildFile; fileRef = 639D1E2822DEE58E007060FC /* icon04.png */; };
+		639D1E3122DEE58E007060FC /* icon06.png in Resources */ = {isa = PBXBuildFile; fileRef = 639D1E2922DEE58E007060FC /* icon06.png */; };
+		639D1E3522DEEB49007060FC /* SideBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639D1E3422DEEB49007060FC /* SideBarVC.swift */; };
+		639D1E3722DF0896007060FC /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639D1E3622DF0896007060FC /* ProfileVC.swift */; };
+		639D1E3922DF1A64007060FC /* profile-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 639D1E3822DF1A64007060FC /* profile-bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +79,20 @@
 		639D1D7822DC67C0007060FC /* button-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-bg.png"; sourceTree = "<group>"; };
 		639D1D7A22DC6AE6007060FC /* memo-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "memo-background@2x.png"; sourceTree = "<group>"; };
 		639D1D7C22DC6AEE007060FC /* warning-icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warning-icon-60@2x.png"; sourceTree = "<group>"; };
+		639D1E1E22DEE55D007060FC /* MyMemory-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyMemory-Bridging-Header.h"; sourceTree = "<group>"; };
+		639D1E1F22DEE55F007060FC /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		639D1E2022DEE55F007060FC /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		639D1E2222DEE58E007060FC /* icon01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon01.png; sourceTree = "<group>"; };
+		639D1E2322DEE58E007060FC /* icon02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon02.png; sourceTree = "<group>"; };
+		639D1E2422DEE58E007060FC /* icon05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon05.png; sourceTree = "<group>"; };
+		639D1E2522DEE58E007060FC /* sidemenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sidemenu.png; sourceTree = "<group>"; };
+		639D1E2622DEE58E007060FC /* account@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "account@2x.jpg"; sourceTree = "<group>"; };
+		639D1E2722DEE58E007060FC /* icon03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon03.png; sourceTree = "<group>"; };
+		639D1E2822DEE58E007060FC /* icon04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon04.png; sourceTree = "<group>"; };
+		639D1E2922DEE58E007060FC /* icon06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon06.png; sourceTree = "<group>"; };
+		639D1E3422DEEB49007060FC /* SideBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarVC.swift; sourceTree = "<group>"; };
+		639D1E3622DF0896007060FC /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		639D1E3822DF1A64007060FC /* profile-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-bg.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,17 +145,22 @@
 		639D1BC722C9D61E007060FC /* MyMemory */ = {
 			isa = PBXGroup;
 			children = (
+				639D1E2022DEE55F007060FC /* SWRevealViewController.h */,
+				639D1E1F22DEE55F007060FC /* SWRevealViewController.m */,
 				639D1BC822C9D61E007060FC /* AppDelegate.swift */,
 				639D1C0122CA0494007060FC /* MemoData.swift */,
 				639D1BCC22C9D61E007060FC /* Main.storyboard */,
+				639D1E3422DEEB49007060FC /* SideBarVC.swift */,
 				639D1D7622DC6635007060FC /* CSLogButton.swift */,
 				639D1BFF22C9F9E8007060FC /* MemoCell.swift */,
 				639D1BF922C9F2C0007060FC /* MemoListVC.swift */,
+				639D1E3622DF0896007060FC /* ProfileVC.swift */,
 				639D1BFB22C9F33C007060FC /* MemoFormVC.swift */,
 				639D1BFD22C9F362007060FC /* MemoReadVC.swift */,
 				639D1BD422C9D61F007060FC /* LaunchScreen.storyboard */,
 				639D1BD722C9D61F007060FC /* Info.plist */,
 				639D1BCF22C9D61E007060FC /* MyMemory.xcdatamodeld */,
+				639D1E1E22DEE55D007060FC /* MyMemory-Bridging-Header.h */,
 			);
 			path = MyMemory;
 			sourceTree = "<group>";
@@ -155,7 +186,16 @@
 		639D1C0322CF1A26007060FC /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				639D1E2622DEE58E007060FC /* account@2x.jpg */,
+				639D1E2222DEE58E007060FC /* icon01.png */,
+				639D1E2322DEE58E007060FC /* icon02.png */,
+				639D1E2722DEE58E007060FC /* icon03.png */,
+				639D1E2822DEE58E007060FC /* icon04.png */,
+				639D1E2422DEE58E007060FC /* icon05.png */,
+				639D1E2922DEE58E007060FC /* icon06.png */,
+				639D1E2522DEE58E007060FC /* sidemenu.png */,
 				639D1D7A22DC6AE6007060FC /* memo-background@2x.png */,
+				639D1E3822DF1A64007060FC /* profile-bg.png */,
 				639D1D7C22DC6AEE007060FC /* warning-icon-60@2x.png */,
 				639D1D7822DC67C0007060FC /* button-bg.png */,
 				639D1C0422CF1A4F007060FC /* fountainpen@2x.png */,
@@ -231,6 +271,7 @@
 				TargetAttributes = {
 					639D1BC422C9D61E007060FC = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					639D1BDB22C9D61F007060FC = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -267,13 +308,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				639D1E2E22DEE58E007060FC /* account@2x.jpg in Resources */,
+				639D1E2D22DEE58E007060FC /* sidemenu.png in Resources */,
 				639D1BD622C9D61F007060FC /* LaunchScreen.storyboard in Resources */,
 				639D1D7922DC67C0007060FC /* button-bg.png in Resources */,
 				639D1C0522CF1A4F007060FC /* fountainpen@2x.png in Resources */,
 				639D1C0922CF351B007060FC /* Assets.xcassets in Resources */,
+				639D1E2B22DEE58E007060FC /* icon02.png in Resources */,
+				639D1E2F22DEE58E007060FC /* icon03.png in Resources */,
+				639D1E3922DF1A64007060FC /* profile-bg.png in Resources */,
+				639D1E3022DEE58E007060FC /* icon04.png in Resources */,
+				639D1E3122DEE58E007060FC /* icon06.png in Resources */,
 				639D1D7B22DC6AE6007060FC /* memo-background@2x.png in Resources */,
 				639D1BCE22C9D61E007060FC /* Main.storyboard in Resources */,
 				639D1D7D22DC6AEE007060FC /* warning-icon-60@2x.png in Resources */,
+				639D1E2A22DEE58E007060FC /* icon01.png in Resources */,
+				639D1E2C22DEE58E007060FC /* icon05.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,8 +353,11 @@
 				639D1BD122C9D61E007060FC /* MyMemory.xcdatamodeld in Sources */,
 				639D1C0222CA0494007060FC /* MemoData.swift in Sources */,
 				639D1BFC22C9F33C007060FC /* MemoFormVC.swift in Sources */,
+				639D1E3522DEEB49007060FC /* SideBarVC.swift in Sources */,
+				639D1E2122DEE55F007060FC /* SWRevealViewController.m in Sources */,
 				639D1D7722DC6635007060FC /* CSLogButton.swift in Sources */,
 				639D1BC922C9D61E007060FC /* AppDelegate.swift in Sources */,
+				639D1E3722DF0896007060FC /* ProfileVC.swift in Sources */,
 				639D1C0022C9F9E8007060FC /* MemoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,6 +533,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 48647M79X3;
 				INFOPLIST_FILE = MyMemory/Info.plist;
@@ -489,6 +543,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MyMemory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyMemory/MyMemory-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -498,6 +554,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 48647M79X3;
 				INFOPLIST_FILE = MyMemory/Info.plist;
@@ -507,6 +564,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MyMemory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyMemory/MyMemory-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

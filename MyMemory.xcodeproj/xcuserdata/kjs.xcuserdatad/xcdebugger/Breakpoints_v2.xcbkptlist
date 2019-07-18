@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyMemory/MemoListVC.swift"
-            timestampString = "584005068.530362"
+            timestampString = "585047662.879576"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
             landmarkName = "MemoListVC"
             landmarkType = "3">
          </BreakpointContent>

@@ -20,6 +20,15 @@ class MemoListVC: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        if let revealVC = self.revealViewController(){
+            let btn = UIBarButtonItem(image: UIImage(named: "sidemenu"),
+                                      style: .plain,
+                                      target: revealVC,
+                                      action: #selector(revealVC.revealToggle(_:)))
+            self.navigationItem.leftBarButtonItem = btn
+            self.view.addGestureRecognizer(revealVC.panGestureRecognizer())
+
+        }
     }
 
 
